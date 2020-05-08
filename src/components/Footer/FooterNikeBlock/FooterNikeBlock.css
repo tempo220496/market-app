@@ -1,0 +1,21 @@
+.footer__nike-block {
+  position: relative;
+}
+
+.footer__nike-name {
+  font-size: 2.5rem;
+  position: absolute;
+  top: 0;
+  left: 47%;
+  transform: translateX(-53%);
+}
+@media screen and (max-width: 480px) {
+  .footer__nike-block {
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .footer__nike-name {
+    left: 35%;
+  }
+}

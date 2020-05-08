@@ -1,0 +1,67 @@
+.top__line {
+    background-color: #F5535E;
+    font-family: "Gotham Book";
+  }
+  
+  .top__line .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 28px 0;
+  }
+  
+  .top__link {
+    color: white;
+    text-decoration: none;
+    border-left: 1px solid #F8878F;
+    padding: 0 10px 0 13px;
+  }
+  
+  #top__auth, #currency, #language {
+    background-color: #F5535E;
+    border: none;
+    color: white;
+    outline: none;
+    font-family: "Gotham Book";
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 724px) {
+    .top__line .container {
+      padding: 14px 0;
+    }
+  
+    .top__navbar {
+      width: 440px;
+    }
+  
+    #top__auth {
+      border-left: 1px solid #F8878F;
+    }
+  
+    .top__link {
+      padding-bottom: 0.5rem;
+    }
+  
+    .top__link_checkout {
+      padding-right: 1.9rem;
+    }
+  
+    .top__selects {
+      width: 160px;
+      padding-left: 1rem;
+    }
+  }
+  @media screen and (max-width: 617px) {
+    .top__navbar {
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 457px) {
+    .top__line .container {
+      justify-content: space-around;
+    }
+  
+    .top__navbar {
+      width: 160px;
+    }
+  }

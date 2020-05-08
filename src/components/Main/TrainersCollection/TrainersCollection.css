@@ -1,0 +1,15 @@
+.trainers__collection {
+  background: #fff;
+  font-family: "Gotham_Bold";
+  text-align: center;
+  padding: 50px 0;
+}
+.trainers__title {
+  font-size: 42px;
+  margin: 0;
+}
+
+.trainers__intro {
+  font-size: 28px;
+  margin: 0;
+}
