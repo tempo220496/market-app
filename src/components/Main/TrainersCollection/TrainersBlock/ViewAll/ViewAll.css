@@ -1,0 +1,24 @@
+.view__all {
+  border-radius: 30px;
+  background-color: #F43A55;
+  max-width: 170px;
+  height: 55px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.view__all span {
+  color: #4D4B4B;
+  background-color: #fff;
+  padding: 18px 28px;
+  border-radius: 30px;
+  font-size: 1rem;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 320px) {
+  .view__all {
+    max-width: 200px;
+  }
+}

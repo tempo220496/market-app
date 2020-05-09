@@ -1,5 +1,6 @@
 import React from 'react';
 import "./TopLine.css"
+import { Link } from 'react-router-dom';
 
 const TopLine = () => {
     return (
@@ -22,9 +23,9 @@ const TopLine = () => {
 					<select name="authorization" id="top__auth" className="top__link">
 						<option value="my_account">My Account</option>
 					</select>
-					<a href="#" className="top__link"><span className="fa fa-heart"></span> Wish list (0)</a>
-					<a href="#" className="top__link top__link_checkout"><span className="fa fa-check"></span> Checkout</a>
-					<a href="#" className="top__link"><span className="fa fa-shopping-bag"></span> Login</a>
+					<Link to="#" className="top__link"><span className="fa fa-heart"></span> Wish list (0)</Link>
+					<Link to="#" className="top__link top__link_checkout"><span className="fa fa-check"></span> Checkout</Link>
+					<Link to="#" className="top__link"><span className="fa fa-shopping-bag"></span> Login</Link>
 				</nav>
 			</div>
 		</div>

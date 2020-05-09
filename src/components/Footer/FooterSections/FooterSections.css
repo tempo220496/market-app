@@ -5,12 +5,13 @@
   }
   
   .footer__section {
-    padding-top: 90px;
+    padding-top: 3rem;
     width: 200px;
   }
   
   .footer__list {
     list-style-type: none;
+    padding-left: 0;
   }
   
   .footer__item {
@@ -24,9 +25,12 @@
   
   .fa.fa-phone, .fa.fa-map-marker, .fa.fa-envelope {
     color: #F43C57;
+    margin-right: 0.5rem;
   }
 
-
+  .footer__title_color{
+    padding-bottom: 0;
+  }
   @media screen and (max-width: 480px) {
     .footer__section {
       padding-top: 22.5px;
