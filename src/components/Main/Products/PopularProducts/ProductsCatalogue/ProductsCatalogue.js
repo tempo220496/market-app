@@ -1,5 +1,6 @@
 import React from "react";
 import Product from "./Product/Product";
+import "./ProductsCatalogue.css";
 
 const ProductsCatalogue = ({gold_star,grey_star}) => {
   return (

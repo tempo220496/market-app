@@ -1,5 +1,6 @@
 import React from "react";
 import HeaderSection from "./HeaderSection/HeaderSection";
+import "./HeaderBackgroundCrimson.css"
 
 const HeaderBackgroundCrimson = () => {
   return (

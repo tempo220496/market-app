@@ -7,10 +7,10 @@ import ActionInfo from "./ActionInfo/ActionInfo";
 const Main = () => {
   return (
     <main className="main">
-      <TrainersCollection />
-      <LogosSection />
+      {/*<TrainersCollection />
+      <LogosSection />*/}
       <Products />
-      <ActionInfo />
+      {/*<ActionInfo />*/}
     </main>
   );
 };

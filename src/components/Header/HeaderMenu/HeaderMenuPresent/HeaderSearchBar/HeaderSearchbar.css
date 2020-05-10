@@ -1,0 +1,78 @@
+.header__search-bar {
+  display: flex;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.header__search-category {
+  padding: 13px 11px 14px;
+  font-family: "Gotham Book";
+}
+
+.header__search-input {
+  width: 375px;
+  height: 40px;
+  padding-left: 0.7rem;
+  font-family: "Gotham Book";
+}
+
+.header__search-button {
+  background-color: #F5535E;
+  color: #fff;
+  border: none;
+  padding: 0.4rem 0.6rem;
+}
+
+.fa.fa-search {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 812px) {
+  .header__search-bar {
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 606px) {
+  .header__search-input {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 573px) {
+  .header__search-input {
+    width: 325px;
+  }
+}
+@media screen and (max-width: 570px) {
+  .header__search-input {
+    width: 310px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .header__search-input {
+    width: 280px;
+  }
+}
+@media screen and (max-width: 513px) {
+  .header__search-input {
+    width: 250px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .header__search-input {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 452px) {
+  .header__search-input {
+    width: 220px;
+  }
+}
+@media screen and (max-width: 506px) {
+  .header__search-category {
+    flex: 1 1 100%;
+  }
+
+  .header__search-input {
+    flex: 1;
+  }
+}

@@ -1,0 +1,60 @@
+.header__background_crimson {
+  background: linear-gradient(90deg, #6F202D, #C62030);
+}
+
+.header__banner {
+  background-image: url("../../../assets/img/shoes_banner.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+}
+
+.header__section {
+  padding-top: 33rem;
+  max-width: 745px;
+  color: white;
+  padding-bottom: 3em;
+  font-size: 16px;
+}
+
+.header__title {
+  font-size: 4rem;
+  font-family: "Gotham_Bold";
+  margin: 1rem 0;
+  line-height: 4rem;
+}
+
+.header__intro {
+  font-size: 30px;
+  font-family: "Gotham_Bold";
+  margin: 1em 0;
+}
+
+.header__text {
+  font-size: 1.125em;
+  font-family: "Gotham Book";
+}
+
+@media screen and (max-width: 320px) {
+  .header__section {
+    padding: 8rem 1rem 1rem;
+    font-size: 16px;
+  }
+
+  .header__banner {
+    background-size: 150% auto;
+    background-position-x: -85px;
+  }
+
+  .header__title {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  .header__intro {
+    font-size: 1rem;
+  }
+
+  .header__text {
+    padding-top: 1rem;
+  }
+}

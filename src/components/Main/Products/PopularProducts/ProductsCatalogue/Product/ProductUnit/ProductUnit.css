@@ -1,0 +1,35 @@
+.product__evaluation {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+.evaluation__title {
+  font-size: 22px;
+  color: #282422;
+}
+
+.main__price {
+  font-size: 25px;
+  color: #F43A55;
+}
+
+.product__price {
+  margin-top: 1rem;
+}
+
+.line-through {
+  font-size: 17px;
+  text-decoration: line-through;
+  color: #939190;
+  margin-left: 0.5rem;
+}
+
+.products .action__button {
+  width: 150px;
+}
+
+@media screen and (max-width: 320px) {
+  .product__evaluation {
+    max-width: 200px;
+  }
+}

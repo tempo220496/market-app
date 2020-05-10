@@ -1,6 +1,7 @@
 import React from 'react';
 import ProductPrice from './ProductPrice/ProductPrice';
 import StarImg from './StarImg/StarImg';
+import "./ProductUnit.css";
 
 const ProductUnit = ({img,title,main_price,discount,gold_img,grey_img,goldStars,greyStars}) => {
     return (

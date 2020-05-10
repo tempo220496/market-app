@@ -1,0 +1,58 @@
+.header__shopping-report {
+  background: #717171;
+  color: white;
+  max-width: 170px;
+  font-family: "Gotham Book";
+  text-align: center;
+  padding: 0.3rem 1rem;
+  margin-left: 4.5rem;
+}
+
+.shopping-report, .shopping-card {
+  margin: 0;
+}
+
+@media screen and (max-width: 1230px) {
+  .header__shopping-report {
+    margin-left: 1rem;
+  }
+}
+@media screen and (max-width: 1108px) {
+  .header__shopping-report {
+    margin-left: 0;
+  }
+}
+@media screen and (max-width: 1004px) {
+  .header__shopping-report {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+@media screen and (max-width: 832px) {
+  .header__shopping-report {
+    margin-left: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}
+@media screen and (max-width: 812px) {
+  .header__shopping-report {
+    margin-left: 0.5rem;
+  }
+}
+@media screen and (max-width: 788px) {
+  .header__shopping-report {
+    margin-top: 1rem;
+  }
+}
+@media screen and (max-width: 426px) {
+  .header__shopping-report {
+    max-width: 404px;
+    display: flex;
+    margin: 1rem auto 0;
+  }
+
+  .shopping-report {
+    margin-left: 0.5rem;
+  }
+}

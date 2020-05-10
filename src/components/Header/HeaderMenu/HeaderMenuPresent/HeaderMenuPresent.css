@@ -1,0 +1,32 @@
+.header__menu-present {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.header__menu {
+  background: #000000;
+  border-bottom: 10px solid #fff;
+  padding: 22px 0;
+}
+
+@media screen and (max-width: 1230px) {
+  .header__menu {
+    padding: 22px 1rem;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .header__menu-present {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 788px) {
+  .header__menu {
+    padding-bottom: 11px;
+  }
+}
+@media screen and (max-width: 788px) {
+  .header__menu {
+    border-bottom: 2px solid #fff;
+  }
+}

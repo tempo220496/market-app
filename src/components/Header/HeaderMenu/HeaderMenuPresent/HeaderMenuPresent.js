@@ -3,6 +3,7 @@ import HeaderMenuLogo from "./HeaderMenuLogo/HeaderMenuLogo";
 import HeaderSearchBar from "./HeaderSearchBar/HeaderSearchBar";
 import HeaderShoppingReport from "./HeaderShoppingReport/HeaderShoppingReport";
 import HeaderNavbar from "./HeaderNavbar/HeaderNavbar";
+import "./HeaderMenuPresent.css";
 
 const HeaderMenuPresent = () => {
   return (

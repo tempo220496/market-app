@@ -1,6 +1,7 @@
 import React from "react";
 import MixedBlock from "./MixedBlock/MixedBlock";
 import DestinationArea from "./DestinationArea/DestinationArea";
+import "./ProductInfo.css";
 
 const ProductInfo = ({trainers_effect,sells_chart,running_logo}) => {
   return (

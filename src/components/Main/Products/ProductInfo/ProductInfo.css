@@ -1,0 +1,37 @@
+.product__info {
+  padding-top: 6em;
+  max-width: 75em;
+  position: relative;
+  height: 43.75em;
+  margin: 0 auto;
+}
+
+.product__chart {
+  position: absolute;
+  bottom: 0;
+  max-width: 100%;
+  height: auto;
+}
+
+.trainers__effect {
+  position: absolute;
+  max-width: 55.0625em;
+}
+
+.total__price {
+  font-size: 7.38375em;
+  position: absolute;
+  right: 0;
+}
+
+@media screen and (max-width: 480px) {
+  .product__info {
+    font-size: 6.25px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .product__info {
+    padding-top: 9em;
+    font-size: 3.75px;
+  }
+}

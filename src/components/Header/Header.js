@@ -1,5 +1,4 @@
 import React from 'react';
-import './Header.css'
 import 'font-awesome/css/font-awesome.min.css';
 import HeaderMenu from './HeaderMenu/HeaderMenu';
 import HeaderBackgroundCrimson from './HeaderBackgroundCrimson/HeaderBackgroundCrimson';

@@ -1,0 +1,26 @@
+.header__menu-logo {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.nike_intro {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: bold;
+  font-family: "Copperplate_Gothic_Bold";
+  position: absolute;
+  left: 125px;
+  bottom: 0;
+}
+
+@media screen and (max-width: 1092px) {
+  .header__menu-logo {
+    width: 223px;
+  }
+}
+@media screen and (max-width: 832px) {
+  .header__menu-logo {
+    display: none;
+  }
+}

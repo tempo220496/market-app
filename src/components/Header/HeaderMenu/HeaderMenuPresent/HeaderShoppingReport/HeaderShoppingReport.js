@@ -1,4 +1,5 @@
 import React from "react";
+import "./HeaderShoppingReport.css";
 
 const HeaderShoppingReport = () => {
   return (

@@ -1,0 +1,47 @@
+.new__title {
+    font-size: 28px;
+    color: #F43A55;
+    margin-left: 1rem;
+  }
+  
+  .products__block {
+    max-width: 100%;
+    margin-top: 1rem;
+  }
+  
+  .product__img {
+    width: 400px;
+    height: 340px;
+    background-size: cover;
+  }
+  
+  .product__first-img {
+    background-image: url("../../../../../assets/img/grey-trainers.png");
+  }
+  
+  .product__second-img {
+    background-image: url("../../../../../assets/img/black-trainers.png");
+  }
+  
+  .product__third-img {
+    background-image: url("../../../../../assets/img/white-trainers.png");
+  }
+  
+  @media screen and (max-width: 480px) {
+    .products__block {
+      justify-content: center;
+    }
+  }
+  @media screen and (max-width: 320px) {
+    .product {
+      max-width: 320px;
+    }
+  
+    .product__img {
+      width: 320px;
+    }
+  
+    .product__first-img, .product__second-img, .product__third-img {
+      background-position-x: -40px;
+    }
+  }

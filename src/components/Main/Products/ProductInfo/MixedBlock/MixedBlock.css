@@ -1,0 +1,49 @@
+.mixed-block {
+  position: absolute;
+  max-width: 3.4375em;
+  right: 2em;
+  top: 8em;
+}
+
+.mixed-word {
+  font-size: 1em;
+}
+
+.color-dots {
+  width: 0.6875em;
+  margin: 0 auto;
+}
+
+.color-dot {
+  width: 0.6875em;
+  height: 0.6875em;
+  border-radius: 50%;
+  margin: 1em 0 1em 0;
+}
+
+.first-dot {
+  background-color: #207EBA;
+}
+
+.second-dot {
+  background-color: #F43C57;
+}
+
+.third-dot {
+  background-color: #E2D9D4;
+}
+
+@media screen and (max-width: 480px) {
+  .mixed-block {
+    top: 8em;
+    right: 0;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .mixed-block {
+    top: 8em;
+    right: 0;
+    font-size: 8px;
+  }
+}
