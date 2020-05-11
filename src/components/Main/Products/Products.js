@@ -12,7 +12,7 @@ const Products = () => {
   return (
     <section className="products">
       <div className="container">
-        {/*<PopularProducts gold_star={gold_star} grey_star={grey_star} />*/}
+        <PopularProducts gold_star={gold_star} grey_star={grey_star} />
         <ProductInfo trainers_effect={trainers_effect} sells_chart={sells_chart} running_logo={running_logo} />
       </div>
     </section>

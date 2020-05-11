@@ -4,8 +4,8 @@
   background-color: #26337c13;
   border-radius: 50%;
   position: absolute;
-  bottom: 28%;
-  right: 18.7%;
+  bottom: 14.3em;
+  right: 14em;
 }
 
 .destination__circle {
@@ -95,10 +95,5 @@
 
   .nike-pop {
     right: 0;
-  }
-
-  .destination__area {
-    bottom: 26%;
-    right: 18.7%;
   }
 }
